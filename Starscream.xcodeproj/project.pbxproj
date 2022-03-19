@@ -148,9 +148,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33CCF08F1F5DDC030099B092 /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
+				33CCF08B1F5DDC030099B092 /* Headers */,
 				33CCF0851F5DDC030099B092 /* Sources */,
 				33CCF0891F5DDC030099B092 /* Frameworks */,
-				33CCF08B1F5DDC030099B092 /* Headers */,
 				33CCF08E1F5DDC030099B092 /* Resources */,
 			);
 			buildRules = (
@@ -291,6 +291,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -326,6 +327,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vluxe.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
