@@ -271,9 +271,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33CCF08F1F5DDC030099B092 /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
+				33CCF08B1F5DDC030099B092 /* Headers */,
 				33CCF0851F5DDC030099B092 /* Sources */,
 				33CCF0891F5DDC030099B092 /* Frameworks */,
-				33CCF08B1F5DDC030099B092 /* Headers */,
 				33CCF08E1F5DDC030099B092 /* Resources */,
 			);
 			buildRules = (
@@ -463,7 +463,7 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALID_ARCHS = "x86_64  arm64 armv7 armv7s";
+				VALID_ARCHS = "i386 x86_64  arm64 armv7 armv7s";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -495,7 +495,7 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALID_ARCHS = "x86_64  arm64 armv7 armv7s";
+				VALID_ARCHS = "i386 x86_64  arm64 armv7 armv7s";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
